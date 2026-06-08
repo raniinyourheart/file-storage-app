@@ -4,6 +4,9 @@ import {
   Trash2,
   Clock3
 } from "lucide-react";
+import FileList from '../components/FileList';
+import MyFiles from '../components/MyFiles';
+
 
 export default function DashboardPage() {
   return (
