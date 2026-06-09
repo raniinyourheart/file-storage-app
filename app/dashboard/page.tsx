@@ -7,7 +7,6 @@ import {
 import FileList from '../components/FileList';
 import MyFiles from '../components/MyFiles';
 
-
 export default function DashboardPage() {
   return (
     <div className="space-y-8">
