@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import { Trash2, Folder, FileText, RotateCcw } from 'lucide-react';
+import Sidebar from "../components/Sidebar"; 
 
 const deletedFiles = [
   { id: 'del1', name: 'Old Document.pdf', type: 'pdf', size: '1.2 MB', deletedAt: '2 hari lalu' },

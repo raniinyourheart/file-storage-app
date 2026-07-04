@@ -1,4 +1,5 @@
 import MyFiles from '../components/MyFiles';
+import Sidebar from "../components/Sidebar"; 
 
 export default function MyFilesPage() {
   return (

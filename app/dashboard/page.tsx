@@ -1,5 +1,7 @@
 "use client";
 
+import Sidebar from "../components/Sidebar";
+
 import {
   FileText,
   Star,

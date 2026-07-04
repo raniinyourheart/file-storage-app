@@ -2,6 +2,7 @@
 'use client';
 import { useState } from 'react';
 import { Star, Folder, FileText, Image, Music } from 'lucide-react';
+import Sidebar from "../components/Sidebar"; 
 
 interface FileItem {
   id: string;

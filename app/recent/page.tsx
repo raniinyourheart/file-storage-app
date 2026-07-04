@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import { Clock, FileText, Image } from 'lucide-react';
+import Sidebar from "../components/Sidebar"; 
 
 const recentFiles = [
   { id: '1', name: 'Proposal Seminar.pdf', type: 'pdf', size: '2.4 MB', accessedAt: '2 menit lalu' },
