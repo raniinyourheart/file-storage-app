@@ -1,7 +1,6 @@
 'use client';
 
 import { useState, useMemo } from 'react';
-import Sidebar from "../components/Sidebar"; 
 import { 
   Star, 
   Grid3x3, 
