@@ -4,17 +4,7 @@ import { useState, useMemo } from 'react';
 import { 
   Star, 
   Grid3x3, 
-  List, 
-  Upload, 
-  Folder, 
-  FileText, 
-  Image as ImageIcon, 
-  Music, 
-  Video, 
-  MoreVertical,
-  Download,
-  Trash2,
-  Share2,
+
   X,
   Search,
   Filter
