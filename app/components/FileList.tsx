@@ -4,14 +4,7 @@ import { useState } from 'react';
 import { Star, Folder, FileText, Image, Music } from 'lucide-react';
 import Sidebar from "../components/Sidebar"; 
 
-interface FileItem {
-  id: string;
-  name: string;
-  type: 'folder' | 'pdf' | 'image' | 'doc' | 'other';
-  size: string;
-  modifiedAt: string;
-  isStarred: boolean;
-}
+
 
 export default function FileList() {
   const [files, setFiles] = useState<FileItem[]>([
