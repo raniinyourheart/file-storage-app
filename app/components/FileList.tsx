@@ -6,7 +6,11 @@ import Sidebar from "../components/Sidebar";
 
 
 
-
+  const toggleStar = (id: string) => {
+    setFiles(prev => prev.map(f => 
+      f.id === id ? { ...f, isStarred: !f.isStarred } : f
+    ));
+  };
 
   const getIcon = (type: string) => {
     switch(type) {
