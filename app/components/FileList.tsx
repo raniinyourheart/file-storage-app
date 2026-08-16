@@ -4,29 +4,9 @@ import { useState } from 'react';
 import { Star, Folder, FileText, Image, Music } from 'lucide-react';
 import Sidebar from "../components/Sidebar"; 
 
-interface FileItem {
-  id: string;
-  name: string;
-  type: 'folder' | 'pdf' | 'image' | 'doc' | 'other';
-  size: string;
-  modifiedAt: string;
-  isStarred: boolean;
-}
 
-export default function FileList() {
-  const [files, setFiles] = useState<FileItem[]>([
-    { id: '1', name: 'Proposal Seminar.pdf', type: 'pdf', size: '2.4 MB', modifiedAt: '2 jam lalu', isStarred: true },
-    { id: '2', name: 'PPT Sidang.pptx', type: 'doc', size: '5.1 MB', modifiedAt: '5 jam lalu', isStarred: false },
-    { id: '3', name: 'Meeting Notes.docx', type: 'doc', size: '128 KB', modifiedAt: '1 hari lalu', isStarred: true },
-    { id: '4', name: 'Foto Wisuda.jpg', type: 'image', size: '3.2 MB', modifiedAt: '3 hari lalu', isStarred: false },
-    { id: '5', name: 'Folder Tugas', type: 'folder', size: '-', modifiedAt: '1 minggu lalu', isStarred: false },
-  ]);
 
-  const toggleStar = (id: string) => {
-    setFiles(prev => prev.map(f => 
-      f.id === id ? { ...f, isStarred: !f.isStarred } : f
-    ));
-  };
+
 
   const getIcon = (type: string) => {
     switch(type) {
