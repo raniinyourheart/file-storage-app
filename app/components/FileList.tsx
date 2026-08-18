@@ -28,7 +28,14 @@ export default function FileList() {
     ));
   };
 
-  
+  const getIcon = (type: string) => {
+    switch(type) {
+      case 'folder': return <Folder className="w-5 h-5 text-yellow-500" />;
+      case 'pdf': return <FileText className="w-5 h-5 text-red-500" />;
+      case 'image': return <Image className="w-5 h-5 text-green-500" />;
+      default: return <FileText className="w-5 h-5 text-blue-500" />;
+    }
+  };
 
   return (
     <div className="bg-white rounded-xl shadow-sm border">
