@@ -47,12 +47,7 @@ export default function FileList() {
       <div className="overflow-x-auto">
         <table className="w-full">
           <thead className="text-left text-sm text-gray-500 border-b">
-            <tr>
-              <th className="p-4">Nama</th>
-              <th className="p-4">Ukuran</th>
-              <th className="p-4">Diubah</th>
-              <th className="p-4 w-16"></th>
-            </tr>
+            
           </thead>
           <tbody>
             {files.map(file => (
