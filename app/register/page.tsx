@@ -28,13 +28,7 @@ export default function RegisterPage() {
     <div className="min-h-screen bg-gradient-to-br from-blue-950 via-blue-800 to-cyan-500 flex items-center justify-center p-6">
       <div className="w-full max-w-5xl h-[650px] bg-white rounded-3xl overflow-hidden shadow-[0_30px_80px_rgba(0,0,0,0.35)] flex">
 
-        {/* LEFT PANEL - BIRU */}
-        <div className="hidden md:flex w-2/5 relative overflow-hidden">
-          <div className="absolute inset-0 bg-gradient-to-br from-blue-700 via-blue-500 to-cyan-400" />
-          <div className="absolute -left-24 top-0 w-96 h-96 bg-white/10 rotate-45 backdrop-blur-sm" />
-          <div className="absolute -left-40 top-24 w-96 h-96 bg-white/10 rotate-45" />
-          <div className="absolute bottom-0 left-0 w-full h-64 bg-white/10" />
-
+       
           <div className="relative z-10 flex flex-col justify-center px-10 text-white">
             <div className="w-16 h-16 rounded-full bg-white/20 backdrop-blur-md flex items-center justify-center mb-6">
               <UserRound size={32} className="text-white" />
