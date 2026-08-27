@@ -38,7 +38,20 @@ export default function ForgotPasswordPage() {
 
         <div className="flex flex-col md:flex-row">
 
-          
+          {/* LEFT PANEL - BIRU */}
+          <div className="md:w-2/5 bg-gradient-to-br from-blue-700 via-blue-500 to-cyan-400 p-8 flex flex-col justify-center min-h-[300px] md:min-h-full">
+            <div className="text-white">
+              <div className="w-16 h-16 rounded-full bg-white/20 backdrop-blur-md flex items-center justify-center mb-6">
+                <Mail size={32} className="text-white" />
+              </div>
+              <h2 className="text-3xl font-bold">
+                Lupa Password?
+              </h2>
+              <p className="mt-4 text-blue-100">
+                Tenang, kami akan kirimkan link untuk mereset password kamu.
+              </p>
+            </div>
+          </div>
 
           {/* RIGHT PANEL - PUTIH */}
           <div className="md:w-3/5 p-8 md:p-10">
