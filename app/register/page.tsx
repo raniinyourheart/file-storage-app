@@ -63,7 +63,10 @@ export default function RegisterPage() {
 
             <form onSubmit={handleSubmit} className="mt-8 space-y-5">
               {/* Full Name */}
-              
+              <div className="border-b border-gray-300 pb-3 flex items-center gap-3">
+                <UserRound className="text-gray-400" size={20} />
+                <input type="text" placeholder="Full Name" className="w-full outline-none" required />
+              </div>
 
               {/* Email */}
               <div className="border-b border-gray-300 pb-3 flex items-center gap-3">
