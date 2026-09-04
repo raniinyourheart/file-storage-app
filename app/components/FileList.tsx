@@ -57,19 +57,7 @@ export default function FileList() {
           <tbody>
             {files.map(file => (
               <tr key={file.id} className="border-b hover:bg-gray-50">
-                <td className="p-4 flex items-center gap-3">
-                  {getIcon(file.type)}
-                  <span className="font-medium">{file.name}</span>
-                </td>
-                <td className="p-4 text-gray-500">{file.size}</td>
-                <td className="p-4 text-gray-500">{file.modifiedAt}</td>
-                <td className="p-4">
-                  <button onClick={() => toggleStar(file.id)}>
-                    <Star className={`w-4 h-4 ${file.isStarred ? 'fill-yellow-400 text-yellow-400' : 'text-gray-400'}`} />
-                  </button>
-                </td>
-              </tr>
-            ))}
+                
           </tbody>
         </table>
       </div>
