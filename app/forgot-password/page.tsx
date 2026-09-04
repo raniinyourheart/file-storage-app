@@ -140,7 +140,23 @@ export default function ForgotPasswordPage() {
                     kirim ulang
                   </button>
                 </p>
-               
+                <Link
+                  href="/login"
+                  className="
+                    inline-block
+                    bg-gradient-to-r
+                    from-blue-700
+                    to-cyan-500
+                    px-6
+                    py-2
+                    rounded-full
+                    text-white
+                    font-semibold
+                    hover:scale-105
+                    transition
+                    shadow-lg
+                  "
+                >
                   Kembali ke Login
                 </Link>
               </div>
