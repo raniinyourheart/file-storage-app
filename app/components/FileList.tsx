@@ -63,7 +63,11 @@ export default function FileList() {
                 </td>
                 <td className="p-4 text-gray-500">{file.size}</td>
                 <td className="p-4 text-gray-500">{file.modifiedAt}</td>
-               
+                <td className="p-4">
+                  <button onClick={() => toggleStar(file.id)}>
+                    <Star className={`w-4 h-4 ${file.isStarred ? 'fill-yellow-400 text-yellow-400' : 'text-gray-400'}`} />
+                  </button>
+                </td>
               </tr>
             ))}
           </tbody>
