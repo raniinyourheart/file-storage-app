@@ -139,7 +139,9 @@ export default function ForgotPasswordPage() {
                   >
                     kirim ulang
                   </button>
+                </p>
               
+            )}
             
           </div>
         </div>
