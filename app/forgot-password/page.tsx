@@ -141,7 +141,8 @@ export default function ForgotPasswordPage() {
                   </button>
               
             
-    
+          </div>
+        </div>
       </div>
     </div>
   );
