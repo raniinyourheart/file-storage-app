@@ -34,7 +34,10 @@ export default function LoginPage() {
               Welcome Back
             </h2>
 
-            
+            <p className="mt-4 text-blue-100">
+              Login untuk mengakses dashboard dan
+              mengelola seluruh data dengan mudah.
+            </p>
           </div>
         </div>
 
