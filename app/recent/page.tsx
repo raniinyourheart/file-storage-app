@@ -11,13 +11,7 @@ const recentFiles = [
   { id: '4', name: 'Foto Wisuda.jpg', type: 'image', size: '3.2 MB', accessedAt: 'kemarin' },
 ];
 
-export default function RecentPage() {
-  const [recent] = useState(recentFiles);
 
-  const getIcon = (type: string) => {
-    if (type === 'image') return <Image className="w-5 h-5 text-green-500" />;
-    return <FileText className="w-5 h-5 text-blue-500" />;
-  };
 
   return (
     <div className="p-6 max-w-6xl mx-auto">
